@@ -8,6 +8,8 @@ import {
   FormControl,
   Button,
 } from "react-bootstrap";
+import { FaCartPlus } from "react-icons/fa";
+
 export default function NavB() {
   return (
     <Navbar bg="white" expand={false}>
@@ -27,6 +29,7 @@ export default function NavB() {
               <Nav.Link href="#action1">Productos</Nav.Link>
               <Nav.Link href="#action2">Contacto</Nav.Link>
             </Nav>
+            <FaCartPlus />
             <Form className="d-flex">
               <FormControl
                 type="search"
